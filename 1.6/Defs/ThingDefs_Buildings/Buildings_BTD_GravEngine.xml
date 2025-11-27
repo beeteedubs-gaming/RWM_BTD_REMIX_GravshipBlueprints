@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>BTD_GravEngine_Damaged</defName>
+		<label>damaged grav engine</label>
+		<description>A heavily damaged gravship engine core. While non-functional for flight, its systems can be hacked to extract valuable components.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Ancient/GravReactor/AncientGravReactor</texPath>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+		<MaxHitPoints>9999</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Flammability>0.5</Flammability>
+		<Beauty>-15</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(3, 3)</size>
+		<costList />
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isEdifice>true</isEdifice>
+			<deconstructible>false</deconstructible>
+		</building>
+		<comps>
+			<li Class="CompProperties_Hackable">
+				<defence>15000</defence>
+				<hackedMessage>{HACKER_labelShort} successfully hacked the {SUBJECT_label}!</hackedMessage>
+				<notHackedInspectString>This damaged grav engine can be hacked to extract salvage.</notHackedInspectString>
+				<hackedInspectString>The grav engine has been successfully hacked and its contents extracted.</hackedInspectString>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BTD_GravEngine_Encrypted</defName>
+		<label>encrypted grav engine</label>
+		<description>An intact gravship engine with heavily encrypted control systems. The encryption must be bypassed through hacking before the engine can be initialized and brought online.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Building/GravEngine/GravEngine</texPath>
+		  <drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+		<MaxHitPoints>9999</MaxHitPoints>
+		<WorkToBuild>0</WorkToBuild>
+		<Flammability>0.5</Flammability>
+		<Beauty>-15</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(3, 3)</size>
+		<costList />
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isEdifice>true</isEdifice>
+			<deconstructible>false</deconstructible>
+		</building>
+		<destroyable>true</destroyable>
+		<comps>
+			<li Class="CompProperties_Hackable">
+				<defence>1200000</defence>
+				<hackedMessage>The {SUBJECT_label} has been successfully decrypted and initialized!</hackedMessage>
+				<notHackedInspectString>This encrypted grav engine must be hacked to bypass its security systems. Hacking work will decrypt and initialize the engine.</notHackedInspectString>
+				<hackedInspectString>The grav engine has been successfully decrypted and initialized.</hackedInspectString>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+</Defs>

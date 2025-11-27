@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IncidentDef>
+		<defName>BTD_DownedGravship</defName>
+		<label>downed gravship</label>
+		<category>Misc</category>
+		<targetTags>
+		  <li>World</li>
+		</targetTags>
+		<workerClass>RWM_BTD_Remix_GravshipBlueprints.BTD_IncidentWorker_DownedGravship</workerClass>
+		<baseChance>1.0</baseChance>
+		<minRefireDays>25</minRefireDays>
+		<earliestDay>15</earliestDay>
+		<minPopulation>2</minPopulation>
+	</IncidentDef>
+</Defs>

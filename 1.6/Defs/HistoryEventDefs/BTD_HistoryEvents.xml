@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HistoryEventDef>
+		<defName>BTD_SalvageGravshipCompleted</defName>
+		<label>completed salvage gravship quest</label>
+	</HistoryEventDef>
+	<HistoryEventDef>
+		<defName>BTD_DownedGravshipCompleted</defName>
+		<label>completed downed gravship quest</label>
+	</HistoryEventDef>
+</Defs>

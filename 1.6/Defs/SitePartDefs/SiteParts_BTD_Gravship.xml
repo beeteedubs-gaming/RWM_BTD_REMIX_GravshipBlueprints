@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SitePartDef>
+		<defName>BTD_DownedGravship</defName>
+		<label>downed gravship</label>
+		<description>A gravship crashsite, most of the ship wont be salvagable but we may be able to hack the grav engine and other buildings for valuable resources.</description>
+		<workerClass>RWM_BTD_Remix_GravshipBlueprints.BTD_SitePartWorker_DownedGravship</workerClass>
+		<siteTexture>WorldObjects/BTD_DownedGravshipSite</siteTexture>
+		<expandingIconTexture>WorldObjects/BTD_DownedGravshipSite</expandingIconTexture>
+		<arrivedLetter>Your caravan has arrived at the downed gravship site.\n\nThe gravship appears heavily damaged. A hackable grav engine core may contain valuable salvage.</arrivedLetter>
+		<tags>
+			<li>BTD_DownedGravship</li>
+		</tags>
+		<applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
+	</SitePartDef>
+
+	<SitePartDef>
+		<defName>BTD_SalvageGravship</defName>
+		<label>salvage gravship</label>
+		<description>An abandoned gravship awaiting salvage. Initialize the grav engine to activate it, but beware - the process will attract hostile forces.</description>
+		<workerClass>RWM_BTD_Remix_GravshipBlueprints.BTD_SitePartWorker_SalvageGravship</workerClass>
+		<siteTexture>WorldObjects/BTD_SalvageGravshipSite</siteTexture>
+		<expandingIconTexture>WorldObjects/BTD_SalvageGravshipSite</expandingIconTexture>
+		<arrivedLetter>Your caravan has arrived at the salvage gravship site.\n\nThe gravship appears intact but abandoned. You can initialize the grav engine when ready, but doing so will trigger a lengthy initialization process that will attract enemies.</arrivedLetter>
+		<tags>
+			<li>BTD_SalvageGravship</li>
+		</tags>
+		<applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
+		<disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
+	</SitePartDef>
+</Defs>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScenPartDef>
+		<defName>BTD_GravshipCustomStart</defName>
+		<label>Gravship Custom Start</label>
+		<maxUses>1</maxUses>
+		<description>Start with a custom gravship design of your choice.</description>
+		<scenPartClass>RWM_BTD_Remix_GravshipBlueprints.BTD_ScenPart_GravshipCustomStart</scenPartClass>
+		<category>StartingImportant</category>
+	</ScenPartDef>
+
+	<ScenPartDef>
+		<defName>BTD_GravshipCustomQuest</defName>
+		<label>Gravship Custom Quest</label>
+		<maxUses>1</maxUses>
+		<description>Configure which gravship design will appear in the salvage gravship endgame quest.</description>
+		<scenPartClass>RWM_BTD_Remix_GravshipBlueprints.BTD_ScenPart_GravshipCustomQuest</scenPartClass>
+		<category>GameCondition</category>
+	</ScenPartDef>
+</Defs>
