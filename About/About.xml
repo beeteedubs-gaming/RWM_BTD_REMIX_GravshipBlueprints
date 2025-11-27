@@ -20,6 +20,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>brrainz.harmony</li>
+		<li>vanillaexpanded.gravship</li>
 	</loadAfter>
 </ModMetaData>
 

@@ -19,6 +19,9 @@
 <BTD_Close>Close</BTD_Close>
 <BTD_Select>Select</BTD_Select>
 <BTD_ModInfo>Mod Info</BTD_ModInfo>
+<BTD_ShipClass>Ship Class</BTD_ShipClass>
+<BTD_AllShipClasses>All</BTD_AllShipClasses>
+<BTD_RequiresVGE>Requires VGE</BTD_RequiresVGE>
 
 <!-- Preview Dialog -->
 <BTD_PreviewTitle>{0} ({1})</BTD_PreviewTitle>
@@ -26,6 +29,7 @@
 
 <!-- Mod Dependencies Dialog -->
 <BTD_ModDependencies>Mod Dependencies: {0}</BTD_ModDependencies>
+<BTD_ModsUsed>Mods Used: {0}</BTD_ModsUsed>
 <BTD_NoModDependencies>This design has no mod dependencies</BTD_NoModDependencies>
 <BTD_Workshop>Workshop</BTD_Workshop>
 <BTD_WorkshopLinkNotAvailable>Workshop link not available</BTD_WorkshopLinkNotAvailable>
@@ -106,7 +110,6 @@
 <BTD_SalvageGravship>Salvage Gravship</BTD_SalvageGravship>
 <BTD_BrowseShips>Browse Gravships</BTD_BrowseShips>
 <BTD_SelectedShip>Selected ship: {0}</BTD_SelectedShip>
-<BTD_DesignNotFound>Design not found</BTD_DesignNotFound>
 <BTD_NoShipSelected>No ship selected</BTD_NoShipSelected>
 <BTD_PreviewShip>Preview Ship</BTD_PreviewShip>
 <BTD_SalvageQuest>Salvage Quest: {0}</BTD_SalvageQuest>
